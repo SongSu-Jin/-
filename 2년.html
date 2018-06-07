@@ -26,9 +26,13 @@
      padding-left:30px;
      border-right: 3px solid gray;
    }
-   #grid #class{
-     padding-left:30px;
-     padding-top:20px;
+   .row{
+     padding-left: 30px;
+     padding-top: 10px;
+   }
+   .td, tr{
+     width: 160px;
+
    }
    #disqus_thread{
      padding-top: 100px;
@@ -48,7 +52,7 @@
   <div id="grid">
     <ul>
       <li><a href="1년.html" class="saw">프롤로그</a></li>
-      <li><a href="2년.html" class="saw">게시판</a></li>
+      <li><a href="2년.html" class="saw">편지쓰기</a></li>
       <li><a href="3년.html" class="saw">3년</a></li>
     </ul>
 
@@ -57,10 +61,10 @@
           <table class="table table-striped" style="text-align: center; border: 1px dolid #dddddd">
             <thead>
               <tr>
-                <th style="background-color: #eeeeee; text-align: center;">번호</th>
-                <th style="background-color: #eeeeee; text-align: center;">제목</th>
-                <th style="background-color: #eeeeee; text-align: center;">작성자</th>
-                <th style="background-color: #eeeeee; text-align: center;">작성일</th>
+                <th style="background-color: #eeeeee; text-align: center; width:50px;">번호</th>
+                <th style="background-color: #eeeeee; text-align: center; width:500px;">제목</th>
+                <th style="background-color: #eeeeee; text-align: center;" width:200px;>작성자</th>
+                <th style="background-color: #eeeeee; text-align: center;" width:220px;>작성일</th>
               </tr>
             </thead>
             <tbody>
@@ -72,7 +76,7 @@
               </tr>
             </tbody>
           </table>
-          <a href="write.jsp" class="bth bth-primary pull-right">글쓰기</a>
+          <a href="write.html" style="padding-left: 650px;">글쓰기</a>
   </div>
   </div>
 
